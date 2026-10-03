@@ -1,0 +1,38 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#eef3fb;color:#1b2a49}
+[hidden]{display:none!important}
+.container{max-width:900px;margin:30px auto;padding:0 16px}
+.narrow{max-width:420px}
+h1,h2,h3{margin:.6em 0 .4em}
+.center{text-align:center}
+.topbar{display:flex;justify-content:space-between;align-items:center;background:#1b3a7a;color:#fff;padding:12px 20px}
+.topbar a{color:#fff;text-decoration:none;border:1px solid #fff;padding:4px 12px;border-radius:6px}
+.panel,.ticket,.box{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin:14px 0}
+label{display:block;margin:10px 0 4px;font-weight:600;font-size:14px}
+input,select{width:100%;padding:10px;border:1px solid #b9c5dd;border-radius:8px;font-size:15px}
+.btn{display:inline-block;background:#2f6fed;color:#fff;border:0;padding:11px 20px;border-radius:8px;font-size:15px;cursor:pointer;margin-top:12px;text-decoration:none}
+.btn:disabled{background:#aab6d0;cursor:not-allowed}
+.btn.green{background:#1f9d55}
+.btn.grey{background:#6b7a99}
+.alert{padding:10px 14px;border-radius:8px;margin:10px 0}
+.alert.error{background:#fde2e2;color:#8a1c1c}
+.alert.ok{background:#dff5e6;color:#17632f}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:#fff;border:2px solid #c9d5ee;border-radius:10px;padding:16px 8px;font-size:15px;cursor:pointer}
+.card.sel{border-color:#2f6fed;background:#e6eeff;font-weight:700}
+.tabs{display:flex;gap:8px;margin-top:10px}
+.tab{flex:1;padding:10px;border:0;border-radius:8px;background:#d5def2;cursor:pointer;font-size:15px}
+.tab.active{background:#2f6fed;color:#fff}
+.big{font-size:72px;font-weight:800;color:#1b3a7a;letter-spacing:4px;text-align:center}
+.big.dim{color:#b9c5dd}
+.row{display:flex;gap:12px;justify-content:space-around;text-align:center}
+.row div{flex:1;background:#f3f6fd;border-radius:10px;padding:10px}
+.row b{display:block;font-size:26px}
+.called{background:#dff5e6;color:#17632f;border-radius:10px;padding:16px;text-align:center;font-size:20px;font-weight:700}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-bottom:1px solid #e0e6f3;text-align:left;font-size:14px}
+.badge{padding:2px 10px;border-radius:12px;font-size:12px;font-weight:700}
+.badge.WAITING{background:#fff1c9;color:#8a6100}
+.badge.CALLED{background:#dff5e6;color:#17632f}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.links a{display:block;text-decoration:none;background:#fff;border-radius:12px;padding:30px 10px;text-align:center;font-size:20px;font-weight:700;color:#1b3a7a;box-shadow:0 2px 8px rgba(0,0,0,.08)}
